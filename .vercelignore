@@ -1,0 +1,13 @@
+# Exclude Python backend files and heavy dependencies from Vercel
+app/
+data/
+requirements.txt
+Dockerfile
+seed_db.py
+venv/
+*.db
+*.pdf
+.env
+.env.example
+.git
+.github
