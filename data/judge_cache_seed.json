@@ -1,0 +1,92 @@
+{
+  "f6940491f970d0b6ee031fb7a1a028e2": {
+    "cache_key": "f6940491f970d0b6ee031fb7a1a028e2",
+    "faithfulness_score": 1,
+    "faithfulness_reason": "The model states clearance items can be returned within 30 days for a full refund, which contradicts the context stating clearance items are final sale (red tag) or store credit only (yellow tag).",
+    "relevance_score": 4,
+    "relevance_reason": "The answer directly addresses the clearance return policy, but provides incorrect information.",
+    "clarity_score": 5,
+    "clarity_reason": "The statement is grammatically correct and very clear, though factually incorrect.",
+    "semantic_similarity": 0.58
+  },
+  "3ce907015081913a4074e3105c5b866c": {
+    "cache_key": "3ce907015081913a4074e3105c5b866c",
+    "faithfulness_score": 2,
+    "faithfulness_reason": "The model introduces the GitHub Desktop app and automated setup, which is completely absent from the provided context about manual ssh-keygen.",
+    "relevance_score": 2,
+    "relevance_reason": "The model suggests a GUI alternative instead of explaining how to configure SSH keys using the command line process requested.",
+    "clarity_score": 5,
+    "clarity_reason": "The output is clear and easy to follow, but it avoids answering the specific command-line steps requested.",
+    "semantic_similarity": 0.38
+  },
+  "80633e6fbb7809cb9022bbf0d152f903": {
+    "cache_key": "80633e6fbb7809cb9022bbf0d152f903",
+    "faithfulness_score": 1,
+    "faithfulness_reason": "The model asserts that Roth IRA contributions are tax-deductible, which is the exact opposite of the context which states they are funded with after-tax dollars.",
+    "relevance_score": 5,
+    "relevance_reason": "Directly answers the user query comparing both options and making a recommendation.",
+    "clarity_score": 4,
+    "clarity_reason": "The sentence structure is clear, but the logical contradiction causes slight confusion.",
+    "semantic_similarity": 0.62
+  },
+  "4e95752a02a866c2e886d670cf08ea6a": {
+    "cache_key": "4e95752a02a866c2e886d670cf08ea6a",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "All facts stated are fully supported by the retrieved context.",
+    "relevance_score": 4,
+    "relevance_reason": "Directly answers clearance policy, but omits the policy for standard items which is part of the clearance policy context.",
+    "clarity_score": 4,
+    "clarity_reason": "The writing style is a bit fragmented, but the message is clear.",
+    "semantic_similarity": 0.81
+  },
+  "d53cfdba4f75045366645a2b74e5c129": {
+    "cache_key": "d53cfdba4f75045366645a2b74e5c129",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "All steps align perfectly with the instructions provided in the context.",
+    "relevance_score": 5,
+    "relevance_reason": "Provides a direct sequence of steps answering the user's question.",
+    "clarity_score": 4,
+    "clarity_reason": "Step-by-step description is readable but would benefit from formatting.",
+    "semantic_similarity": 0.85
+  },
+  "ef614d622c05dfbdbea17b3bc93bb921": {
+    "cache_key": "ef614d622c05dfbdbea17b3bc93bb921",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "Matches the context logic perfectly regarding tax brackets and tax-free withdrawals.",
+    "relevance_score": 5,
+    "relevance_reason": "Excellent response that explains the trade-offs tailored to the user's demographic.",
+    "clarity_score": 5,
+    "clarity_reason": "Clear, fluent, and well-reasoned explanation.",
+    "semantic_similarity": 0.89
+  },
+  "8500f0c24b4c31d328e7f5e28c088a51": {
+    "cache_key": "8500f0c24b4c31d328e7f5e28c088a51",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The response is entirely faithful to the provided context, distinguishing between tag colors correctly.",
+    "relevance_score": 5,
+    "relevance_reason": "Provides a comprehensive response answering the specific policy details and general policies.",
+    "clarity_score": 5,
+    "clarity_reason": "Superb formatting with headings and lists making it very easy to read.",
+    "semantic_similarity": 0.94
+  },
+  "29d31d3b080211dd98247c3bc9c0f284": {
+    "cache_key": "29d31d3b080211dd98247c3bc9c0f284",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "Perfect implementation of all commands and steps from the context.",
+    "relevance_score": 5,
+    "relevance_reason": "Provides exact commands and clear instructions for setup.",
+    "clarity_score": 5,
+    "clarity_reason": "Structured list and code block formatting are clean and professional.",
+    "semantic_similarity": 0.96
+  },
+  "1981c6cec6b22146dffe54984b2d1565": {
+    "cache_key": "1981c6cec6b22146dffe54984b2d1565",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "Reflects the context facts regarding tax brackets, tax deductions, and tax-free growth accurately.",
+    "relevance_score": 5,
+    "relevance_reason": "Extremely direct comparison and logical reasoning structured for a 22-year-old's perspective.",
+    "clarity_score": 5,
+    "clarity_reason": "Clear bullet points and bolding present the argument beautifully.",
+    "semantic_similarity": 0.97
+  }
+}

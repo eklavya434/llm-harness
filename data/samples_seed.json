@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sample_001_v1",
+    "question": "What is the return policy for items purchased during the annual clearance sale?",
+    "retrieved_context": "Standard items can be returned within 30 days of purchase for a full refund. Clearance items sold with a red tag are final sale and cannot be returned or exchanged. Clearance items with a yellow tag can be returned for store credit only within 14 days.",
+    "model_output": "You can return any clearance item within 30 days for a full refund, as long as it has a tag.",
+    "ground_truth": "Clearance items with a red tag are final sale and cannot be returned. Yellow-tagged clearance items can be returned for store credit within 14 days. Standard items have a 30-day return window.",
+    "pipeline_version": "v1.0.0"
+  },
+  {
+    "id": "sample_002_v1",
+    "question": "How do I configure SSH keys for GitHub on Windows?",
+    "retrieved_context": "To use SSH with GitHub, generate a new SSH key using 'ssh-keygen -t ed25519 -C \"your_email@example.com\"'. Start the ssh-agent in the background, then add your private key using 'ssh-add ~/.ssh/id_ed25519'. Finally, copy the public key to your GitHub account settings.",
+    "model_output": "To set up SSH on Windows, you just need to download the GitHub Desktop app and click 'Sign In'. It configures all SSH certificates automatically for you without running any command line tools.",
+    "ground_truth": "Generate a key with ssh-keygen, start ssh-agent, add the private key with ssh-add, and add the public key content to your GitHub account settings.",
+    "pipeline_version": "v1.0.0"
+  },
+  {
+    "id": "sample_003_v1",
+    "question": "Is a Roth IRA better than a Traditional IRA for a 22-year-old starting their first job?",
+    "retrieved_context": "Traditional IRAs offer tax-deductible contributions now, but withdrawals in retirement are taxed as ordinary income. Roth IRAs are funded with after-tax dollars, meaning contributions are not tax-deductible, but all qualified withdrawals in retirement are 100% tax-free. For young investors in a low tax bracket, a Roth IRA is generally preferred because their tax rate is likely lower now than in retirement.",
+    "model_output": "A Roth IRA is better because you get to deduct your contributions from your taxes this year, saving you money immediately, and then you don't pay taxes when you retire.",
+    "ground_truth": "For a young investor in a low tax bracket, a Roth IRA is usually better because contributions are made with after-tax money, allowing tax-free growth and tax-free withdrawals in retirement when their tax bracket will likely be higher.",
+    "pipeline_version": "v1.0.0"
+  },
+  {
+    "id": "sample_001_v1.1",
+    "question": "What is the return policy for items purchased during the annual clearance sale?",
+    "retrieved_context": "Standard items can be returned within 30 days of purchase for a full refund. Clearance items sold with a red tag are final sale and cannot be returned or exchanged. Clearance items with a yellow tag can be returned for store credit only within 14 days.",
+    "model_output": "Items bought on clearance can be returned. Yellow-tagged items give you store credit if returned in 14 days. Red-tagged items are final sale and cannot be returned.",
+    "ground_truth": "Clearance items with a red tag are final sale and cannot be returned. Yellow-tagged clearance items can be returned for store credit within 14 days. Standard items have a 30-day return window.",
+    "pipeline_version": "v1.1.0"
+  },
+  {
+    "id": "sample_002_v1.1",
+    "question": "How do I configure SSH keys for GitHub on Windows?",
+    "retrieved_context": "To use SSH with GitHub, generate a new SSH key using 'ssh-keygen -t ed25519 -C \"your_email@example.com\"'. Start the ssh-agent in the background, then add your private key using 'ssh-add ~/.ssh/id_ed25519'. Finally, copy the public key to your GitHub account settings.",
+    "model_output": "You need to generate an SSH key with 'ssh-keygen'. Then you start the ssh-agent service and run 'ssh-add' to add your private key. After that, copy the public key and paste it into GitHub settings.",
+    "ground_truth": "Generate a key with ssh-keygen, start ssh-agent, add the private key with ssh-add, and add the public key content to your GitHub account settings.",
+    "pipeline_version": "v1.1.0"
+  },
+  {
+    "id": "sample_003_v1.1",
+    "question": "Is a Roth IRA better than a Traditional IRA for a 22-year-old starting their first job?",
+    "retrieved_context": "Traditional IRAs offer tax-deductible contributions now, but withdrawals in retirement are taxed as ordinary income. Roth IRAs are funded with after-tax dollars, meaning contributions are not tax-deductible, but all qualified withdrawals in retirement are 100% tax-free. For young investors in a low tax bracket, a Roth IRA is generally preferred because their tax rate is likely lower now than in retirement.",
+    "model_output": "A Roth IRA is generally better for a 22-year-old. Since you are in a low tax bracket now, you pay taxes on contributions today, but your withdrawals will be 100% tax-free when you retire, which is great because your tax rate will likely be higher later.",
+    "ground_truth": "For a young investor in a low tax bracket, a Roth IRA is usually better because contributions are made with after-tax money, allowing tax-free growth and tax-free withdrawals in retirement when their tax bracket will likely be higher.",
+    "pipeline_version": "v1.1.0"
+  },
+  {
+    "id": "sample_001_v1.2",
+    "question": "What is the return policy for items purchased during the annual clearance sale?",
+    "retrieved_context": "Standard items can be returned within 30 days of purchase for a full refund. Clearance items sold with a red tag are final sale and cannot be returned or exchanged. Clearance items with a yellow tag can be returned for store credit only within 14 days.",
+    "model_output": "Under our annual clearance sale policy, return options depend on the item's tag color:\n1. **Red Tag Items**: These are final sale and cannot be returned or exchanged.\n2. **Yellow Tag Items**: These can be returned within 14 days of purchase for store credit only.\nFor standard non-clearance items, our regular 30-day full refund policy applies.",
+    "ground_truth": "Clearance items with a red tag are final sale and cannot be returned. Yellow-tagged clearance items can be returned for store credit within 14 days. Standard items have a 30-day return window.",
+    "pipeline_version": "v1.2.0"
+  },
+  {
+    "id": "sample_002_v1.2",
+    "question": "How do I configure SSH keys for GitHub on Windows?",
+    "retrieved_context": "To use SSH with GitHub, generate a new SSH key using 'ssh-keygen -t ed25519 -C \"your_email@example.com\"'. Start the ssh-agent in the background, then add your private key using 'ssh-add ~/.ssh/id_ed25519'. Finally, copy the public key to your GitHub account settings.",
+    "model_output": "To configure SSH keys for GitHub on Windows:\n1. Open your terminal and generate a key: `ssh-keygen -t ed25519 -C \"your_email@example.com\"`.\n2. Start the ssh-agent in the background: `eval $(ssh-agent -s)`.\n3. Add your private key: `ssh-add ~/.ssh/id_ed25519`.\n4. Copy the public key contents from `~/.ssh/id_ed25519.pub` and add it to your GitHub Settings -> SSH and GPG keys section.",
+    "ground_truth": "Generate a key with ssh-keygen, start ssh-agent, add the private key with ssh-add, and add the public key content to your GitHub account settings.",
+    "pipeline_version": "v1.2.0"
+  },
+  {
+    "id": "sample_003_v1.2",
+    "question": "Is a Roth IRA better than a Traditional IRA for a 22-year-old starting their first job?",
+    "retrieved_context": "Traditional IRAs offer tax-deductible contributions now, but withdrawals in retirement are taxed as ordinary income. Roth IRAs are funded with after-tax dollars, meaning contributions are not tax-deductible, but all qualified withdrawals in retirement are 100% tax-free. For young investors in a low tax bracket, a Roth IRA is generally preferred because their tax rate is likely lower now than in retirement.",
+    "model_output": "Yes, a Roth IRA is typically better for a 22-year-old starting their first job. \n\nHere is why:\n- **Current Tax Rate**: At age 22, your income and tax bracket are likely at their lowest career point, meaning you pay very little tax on your contributions today.\n- **Tax-Free Growth & Withdrawals**: All investment growth and future withdrawals in retirement will be 100% tax-free. \n- **Traditional IRA Comparison**: A Traditional IRA would give you a tax deduction today, but you would be taxed at higher rates when withdrawing the funds during retirement.",
+    "ground_truth": "For a young investor in a low tax bracket, a Roth IRA is usually better because contributions are made with after-tax money, allowing tax-free growth and tax-free withdrawals in retirement when their tax bracket will likely be higher.",
+    "pipeline_version": "v1.2.0"
+  }
+]
