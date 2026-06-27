@@ -56,3 +56,6 @@ A portfolio-grade LLM evaluation and observability platform designed to automati
 
 ## Ephemeral Storage Note (Hugging Face Spaces)
 Because Hugging Face Spaces container restarts completely wipe the storage (with `/tmp` being the only writable directory), this project packages cached judge results and samples inside `data/` and automatically imports them on startup. This allows recruiters and interviewers to run evaluation comparison demos instantly without incurring API costs.
+
+---
+*Vercel Frontend Build Status: Integrated and configured.*
